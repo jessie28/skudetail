@@ -193,30 +193,32 @@ html,body {
 .sku_sub .sub_benefit{
   margin-top:0.347222rem; 
 }
-.sku_sub .sub_benefit>div{
+.sku_sub .sub_benefit>span{
   display: inline-block;
-  line-height: 0.680556rem;
+  line-height: 0.580556rem;
   color: #666;
   text-align: center;
   margin-right: 0.138889rem; 
 }
 
-.sku_sub .sub_benefit>div:last-child{
+.sku_sub .sub_benefit>span:last-child{
   margin-right: 0; 
 }
 
 .square_border{
    width: 1.388889rem;
-   height: 0.694444rem;
-   box-shadow: 0 0 0 2px rgba(0,0,0,.6) inset;
-   border-radius: 0.138889rem;   
+   /*height: 0.694444rem;*/
+   /*box-shadow: 0 0 0 2px rgba(0,0,0,.6) inset;*/
+   border-radius: 0.138889rem;
+   border:2px solid rgba(0,0,0,.6);   
 }
 
 .ovals_border{
    width: 3.166667rem;
-   height: 0.694444rem;
-   box-shadow: 0 0 0 2px rgba(0,0,0,.6) inset;
-   border-radius: 0.694444rem;   
+   /*height: 0.694444rem;*/
+   /*box-shadow: 0 0 0 2px rgba(0,0,0,.6) inset;*/
+   border-radius: 0.694444rem; 
+   border:2px solid rgba(0,0,0,.6);  
 }
 
 .sku_sub .sub_compaign{
